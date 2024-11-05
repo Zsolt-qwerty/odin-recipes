@@ -1,0 +1,84 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2f4f4f;
+    background-color: #f5f5dc;
+    width: 90%;
+}
+
+/* for making boxes visible at testing
+div {
+    border: 1px dotted red;
+}
+*/
+
+a,
+a:active,
+a:link,
+a:visited {
+    font-family: cursive;
+    text-decoration: none;
+    color: #2f4f4f;
+}
+
+.menu a {
+    border: 1px solid #808080;
+    border-radius: 5px;
+    background-color: #9cd5d7;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.menu a:hover {
+    background-color: #699091;
+    color: #eee;
+}
+
+.menu {
+    margin: 10px 0;
+}
+
+.summary,
+.ingredients {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.summary {
+    width: 50%;
+    margin-right: auto;
+}
+
+.ingredients {
+    width: 40%;
+    margin-left: 0;
+}
+
+h1, h2 {
+    color: #800080;
+}
+
+h3, h4, h5 {
+    color: #8b0000;
+}
+
+ul {
+    border: 1px solid #2f4f4f;
+    border-radius: 7px;
+    background-color: #eee;
+    display: inline-block;
+    padding: 16px 16px 16px 32px;
+}
+
+.steps {
+    margin: 0 auto;
+}
+
+footer {
+    color: #a9a9a9;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
