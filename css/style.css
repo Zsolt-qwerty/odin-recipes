@@ -25,19 +25,20 @@ a:visited {
 
 .menu a {
     border: 1px solid #808080;
-    border-radius: 5px;
+    border-radius: 16px;
     background-color: #9cd5d7;
     padding: 5px 10px;
-    margin: 5px;
+    margin: 2px;
 }
 
 .menu a:hover {
     background-color: #699091;
     color: #eee;
+    padding: 8px 10px;
 }
 
 .menu {
-    margin: 10px 0;
+    margin: 8px 0;
 }
 
 .summary,
@@ -53,7 +54,7 @@ a:visited {
 }
 
 .ingredients {
-    width: 40%;
+    width: 50%;
     margin-left: 0;
 }
 
@@ -81,4 +82,8 @@ footer {
     color: #a9a9a9;
     font-size: 12px;
     margin-bottom: 20px;
+}
+
+footer:hover {
+    color: #7b1d1d;
 }
