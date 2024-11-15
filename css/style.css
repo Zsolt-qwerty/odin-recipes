@@ -58,11 +58,12 @@ a:visited {
     margin-left: 0;
 }
 
-h1, h2 {
+/*h1, h2 {
     color: #800080;
 }
-
-h3, h4, h5 {
+*/
+.ingredients h4,
+.steps h4 {
     color: #8b0000;
 }
 
@@ -70,6 +71,7 @@ ul {
     border: 1px solid #2f4f4f;
     border-radius: 7px;
     background-color: #eee;
+    color: #2f4f4f;
     display: inline-block;
     padding: 16px 16px 16px 32px;
 }
