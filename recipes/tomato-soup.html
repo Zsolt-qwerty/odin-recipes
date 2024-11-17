@@ -26,7 +26,8 @@
 </div>
 
 <div class="ingredients">
-    <h4>Ingredients</h4>
+    <h4>Ingredients <button id="collapseBtn">^</button></h4>
+    <!--  onclick="collapse()" -->
     <ul>
         <li>1-1.25kg/2lb 4oz-2lb 12oz ripe tomatoes</li>
         <li>1 medium onion</li>
@@ -56,6 +57,17 @@
 <h2><em>Enjoy!</em></h2>
 <footer>2024 @mineralwater</footer>
 
+<script>
+    const collapseBtn = document.querySelector("#collapseBtn");
+    const ul = document.querySelector("ul");
+    collapseBtn.addEventListener("click", () => ul.parentNode.removeChild(ul));
+
+// function collapse() {
+//     btn = 
+// }
+
+
+</script>
 </body>
 
 </html>
