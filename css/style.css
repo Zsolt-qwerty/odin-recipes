@@ -48,7 +48,7 @@ a:visited {
 }
 
 img {
-    width: 400px;
+    width: 440px;
     /* height: 200px; */
 }
 
@@ -115,5 +115,5 @@ footer {
 }
 
 footer:hover {
-    color: #7b1d1d;
+    color: #d84545;
 }
